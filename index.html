@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddiqa Sabir | Automation Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <header class="navbar">
+
+    <!-- LEFT: YOUR NAME -->
+    <a href="#home" class="nav-brand">
+        <span class="brand-name">SIDDIQA SABIR</span>
+        <span class="brand-subtitle">AI • AUTOMATION • SECURITY</span>
+    </a>
+
+    <!-- RIGHT: NAVIGATION -->
+    <nav class="nav-links">
+
+        <a href="#home" class="active">HOME</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#work">PROJECTS</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#contact">CONTACT</a>
+
+    </nav>
+
+</header>
+
+<section class="hero" id="home">
+
+  <!-- Ambient background -->
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+  <div class="glow glow-3"></div>
+  <div class="floor-glow"></div>
+  <canvas id="particles"></canvas>
+
+  <!-- Decorative automation circuit lines -->
+  <div class="circuit circuit-left-1"><span></span><i></i></div>
+  <div class="circuit circuit-left-2"><span></span><i></i></div>
+  <div class="circuit circuit-left-3"><span></span><i></i></div>
+  <div class="circuit circuit-right-1"><span></span><i></i></div>
+  <div class="circuit circuit-right-2"><span></span><i></i></div>
+  <div class="circuit circuit-right-3"><span></span><i></i></div>
+  <div class="circuit circuit-top"><span></span><i></i></div>
+
+ 
+
+  <!-- Left automation node -->
+  <div class="tech-node node-cloud">
+    <div class="node-ring">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <path d="M19 46h28a10 10 0 0 0 1-20 15 15 0 0 0-29-2A11 11 0 0 0 19 46Z"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="tech-node node-code">
+    <div class="node-ring">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <path d="m25 20-13 12 13 12M39 20l13 12-13 12M35 14l-6 36"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="tech-node node-gear">
+    <div class="node-ring">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="9"/>
+        <path d="M32 10v7M32 47v7M10 32h7M47 32h7M16.5 16.5l5 5M42.5 42.5l5 5M47.5 16.5l-5 5M21.5 42.5l-5 5"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Right automation nodes -->
+  <div class="tech-node node-shield">
+    <div class="node-ring">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <path d="M32 8 51 15v14c0 14-8 23-19 28C21 52 13 43 13 29V15L32 8Z"/>
+        <rect x="25" y="28" width="14" height="12" rx="2"/>
+        <path d="M28 28v-4a4 4 0 0 1 8 0v4"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="tech-node node-network">
+    <div class="node-ring">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="14" r="6"/>
+        <circle cx="14" cy="47" r="6"/>
+        <circle cx="50" cy="47" r="6"/>
+        <path d="M29 19 17 42M35 19l12 23M20 47h24"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="tech-node node-server">
+    <div class="node-ring">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <rect x="13" y="12" width="38" height="12" rx="2"/>
+        <rect x="13" y="28" width="38" height="12" rx="2"/>
+        <rect x="13" y="44" width="38" height="8" rx="2"/>
+        <path d="M20 18h2M20 34h2M20 48h2"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Main centered content -->
+  <main class="hero-content">
+
+    
+
+    <p class="hello">HI, I'M</p>
+
+    <h1>
+      <span class="first-name">Siddiqa</span>
+      <span class="last-name">Sabir</span>
+    </h1>
+
+    <div class="role-line">
+      <span></span>
+      <strong>COMPUTER SCIENCE STUDENT</strong>
+      <span></span>
+    </div>
+
+    <p class="intro">
+      I build smart solutions, automate repetitive work,<br>
+      and turn ideas into secure, efficient systems.
+    </p>
+
+    <div class="skills">
+      <div class="skill">
+        <span class="skill-icon">⌁</span>
+        AUTOMATION
+      </div>
+      <em>|</em>
+      <div class="skill">
+        <span class="skill-icon">◇</span>
+        SECURITY
+      </div>
+      <em>|</em>
+      <div class="skill">
+        <span class="skill-icon">&lt;/&gt;</span>
+        DEVELOPMENT
+      </div>
+    </div>
+
+    <a class="cta" href="#work">
+      EXPLORE MY PORTFOLIO
+      <span>→</span>
+    </a>
+  </main>
+
+  <!-- Tiny live status -->
+  <div class="status">
+    <span class="status-dot"></span>
+    <span>AUTOMATION SYSTEMS ONLINE</span>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- ==============================
+     TECH STACK SECTION
+================================ -->
+
+<!-- Compact Skills / Tech Stack section -->
+<link rel="stylesheet" href="petrol-skills-section.css">
+
+<section id="skills" class="skills-section" aria-labelledby="skills-heading">
+  <div class="skills-inner">
+    <div class="skills-label">
+      <span>// 02 — TECH STACK</span>
+      <h2 id="skills-heading">What I use</h2>
+    </div>
+
+    <div class="skills-content">
+      <div class="skills-primary" aria-label="Primary skills">
+        <span class="skills-intro">TO BUILD WITH</span>
+        <span>Python</span>
+        <b>•</b>
+        <span>AWS</span>
+        <b>•</b>
+        <span>SOAR</span>
+        <b>•</b>
+        <span>AI / LLM</span>
+        <b>•</b>
+        <span>Threat Intelligence</span>
+        <b>•</b>
+        <span>Streamlit</span>
+      </div>
+
+      <div class="skills-secondary" aria-label="Additional skills">
+        <span>Git</span>
+        <b>·</b>
+        <span>APIs</span>
+        <b>·</b>
+        <span>JSON</span>
+        <b>·</b>
+        <span>YAML</span>
+        <b>·</b>
+        <span>Security Automation</span>
+        <b>·</b>
+        <span>Cloud Security</span>
+      </div>
+    </div>
+
+    <div class="skills-status"><i></i> SYSTEM READY</div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========================================
+     PROJECTS / THE ARZENS JOURNEY
+========================================= -->
+
+<!-- =========================
+     PROJECTS SECTION
+========================= -->
+
+<section id="projects" class="projects-section">
+
+    <div class="section-heading">
+        <span class="section-code">// 03 — THE ARZENS JOURNEY</span>
+        <h2>MY <span>PROJECTS</span></h2>
+        <p>
+            A collection of projects and security automation work completed
+            throughout my AI, Automation & Security Engineering internship.
+        </p>
+    </div>
+
+
+    <!-- =========================
+         10 ASSIGNMENT CARDS
+    ========================== -->
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 01 -->
+        <div class="project-card">
+            <div class="project-number">01</div>
+
+            <div class="project-content">
+                <span class="project-week">WEEK 02</span>
+                <h3>PYTHON FOUNDATIONS</h3>
+
+                <p>
+                    Python scripts and automation fundamentals developed
+                    during the early stage of the internship.
+                </p>
+
+                <div class="tech-tags">
+                    <span>PYTHON</span>
+                    <span>GIT</span>
+                    <span>GITHUB</span>
+                </div>
+
+                <div class="project-media">
+                    <img src="week02.png"
+                         alt="Week 02 project screenshot">
+                </div>
+
+                <a href="https://github.com/siddiqa-shah/TheArzens_week_02_CLI_Log_Parser"
+                   target="_blank"
+                   class="github-button">
+                    VIEW ON GITHUB <span>→</span>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- PROJECT 02 -->
+        <div class="project-card">
+            <div class="project-number">02</div>
+
+            <div class="project-content">
+                <span class="project-week">WEEK 03</span>
+                <h3>LOG PARSER & NORMALIZER</h3>
+
+                <p>
+                    A Python-based system for processing, parsing and
+                    normalizing security log data with testing.
+                </p>
+
+                <div class="tech-tags">
+                    <span>PYTHON</span>
+                    <span>LOGS</span>
+                    <span>TESTING</span>
+                </div>
+
+                <div class="project-media">
+                    <img src="week03.png"
+                         alt="Week 03 log parser screenshot">
+                </div>
+
+                <a href="https://github.com/siddiqa-shah/TheArzens_week_03_log_normalizer"
+                   target="_blank"
+                   class="github-button">
+                    VIEW ON GITHUB <span>→</span>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- PROJECT 03 -->
+        <div class="project-card">
+            <div class="project-number">03</div>
+
+            <div class="project-content">
+                <span class="project-week">WEEK 04</span>
+                <h3>THREAT INTELLIGENCE TOOL</h3>
+
+                <p>
+                    A threat intelligence project focused on collecting
+                    security information and working with API integrations.
+                </p>
+
+                <div class="tech-tags">
+                    <span>PYTHON</span>
+                    <span>APIs</span>
+                    <span>THREAT INTEL</span>
+                </div>
+
+                <div class="project-media">
+                    <img src="week_04.png"
+                         alt="Week 04 threat intelligence screenshot">
+                </div>
+
+                <a href="https://github.com/siddiqa-shah/TheArzens_week_04_Threat-Intelligence-Tool"
+                   target="_blank"
+                   class="github-button">
+                    VIEW ON GITHUB <span>→</span>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- PROJECT 04 -->
+        <div class="project-card">
+            <div class="project-number">04</div>
+
+            <div class="project-content">
+                <span class="project-week">WEEK 05</span>
+                <h3>SOAR AUTOMATION</h3>
+
+                <p>
+                    Security playbooks and automated workflows designed
+                    for structured incident response.
+                </p>
+
+                <div class="tech-tags">
+                    <span>PYTHON</span>
+                    <span>SOAR</span>
+                    <span>PLAYBOOKS</span>
+                </div>
+
+                <div class="project-media">
+                    <img src="week05.png"
+                         alt="Week 05 SOAR automation screenshot">
+                </div>
+
+                <a href="https://github.com/siddiqa-shah/TheArzens_week_05_Phishing-Response-Playbook"
+                   target="_blank"
+                   class="github-button">
+                    VIEW ON GITHUB <span>→</span>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- PROJECT 05 -->
+        <div class="project-card">
+            <div class="project-number">05</div>
+
+            <div class="project-content">
+                <span class="project-week">WEEK 06</span>
+                <h3>AI SECURITY ANALYSIS</h3>
+
+                <p>
+                    AI-assisted security workflows for analyzing security
+                    information and supporting automated decision-making.
+                </p>
+
+                <div class="tech-tags">
+                    <span>PYTHON</span>
+                    <span>AI / ML</span>
+                    <span>JSON</span>
+                </div>
+
+                <div class="project-media">
+                    <img src="week_06.png"
+                         alt="Week 06 AI security project screenshot">
+                </div>
+
+                <a href="https://github.com/siddiqa-shah/TheArzens_week_06_AI-ML_fundamentals"
+                   target="_blank"
+                   class="github-button">
+                    VIEW ON GITHUB <span>→</span>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- PROJECT 06 -->
+        <div class="project-card">
+            <div class="project-number">06</div>
+
+            <div class="project-content">
+                <span class="project-week">WEEK 07</span>
+                <h3>SOAR PLAYBOOK MANAGER</h3>
+
+                <p>
+                    A playbook management workflow for organizing,
+                    scheduling and monitoring security automation tasks.
+                </p>
+
+                <div class="tech-tags">
+                    <span>PYTHON</span>
+                    <span>SOAR</span>
+                    <span>YAML</span>
+                </div>
+
+                <div class="project-media">
+                    <img src="week07.png"
+                         alt="Week 07 SOAR manager screenshot">
+                </div>
+
+                <a href="https://github.com/siddiqa-shah/TheArzens_week_07_SOAR_playbook_development"
+                   target="_blank"
+                   class="github-button">
+                    VIEW ON GITHUB <span>→</span>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- PROJECT 07 -->
+        <div class="project-card">
+            <div class="project-number">07</div>
+
+            <div class="project-content">
+                <span class="project-week">WEEK 08</span>
+                <h3>CLOUD AUTOMATION</h3>
+
+                <p>
+                    Cloud security fundamentals and automation workflows
+                    using AWS services.
+                </p>
+
+                <div class="tech-tags">
+                    <span>AWS</span>
+                    <span>S3</span>
+                    <span>IAM</span>
+                </div>
+
+                <div class="project-media">
+                    <img src="assets/images/week08.png"
+                         alt="Week 08 AWS project screenshot">
+                </div>
+
+                <a href="https://github.com/siddiqa-shah/TheArzens_week_08_AWS_S3_automation"
+                   target="_blank"
+                   class="github-button">
+                    VIEW ON GITHUB <span>→</span>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- PROJECT 08 -->
+        <div class="project-card">
+            <div class="project-number">08</div>
+
+            <div class="project-content">
+                <span class="project-week">WEEK 09</span>
+                <h3>SECURITY METRICS DASHBOARD</h3>
+
+                <p>
+                    An interactive security dashboard for presenting
+                    calculated security metrics and analysis.
+                </p>
+
+                <div class="tech-tags">
+                    <span>PYTHON</span>
+                    <span>STREAMLIT</span>
+                    <span>AWS</span>
+                </div>
+
+                <div class="project-media">
+                    <img src="week_9.png"
+                         alt="Week 09 dashboard screenshot">
+                </div>
+
+                <a href="https://github.com/siddiqa-shah/TheArzens_week_09_Security_Dashboard"
+                   target="_blank"
+                   class="github-button">
+                    VIEW ON GITHUB <span>→</span>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- PROJECT 09 -->
+        <div class="project-card">
+            <div class="project-number">09</div>
+
+            <div class="project-content">
+                <span class="project-week">WEEK 10</span>
+                <h3>FINAL CAPSTONE</h3>
+
+                <p>
+                    Final internship portfolio integrating my learning,
+                    projects, documentation and technical journey.
+                </p>
+
+                <div class="tech-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>GITHUB PAGES</span>
+                </div>
+
+                <div class="project-media">
+                    <img src="week_10.png"
+                         alt="Week 10 capstone screenshot">
+                </div>
+
+                <a href="https://github.com/siddiqa-shah/TheArzens_week_10_FinalCapstone_Portfolio"
+                   target="_blank"
+                   class="github-button">
+                    VIEW ON GITHUB <span>→</span>
+                </a>
+            </div>
+        </div>
+
+
+      
+
+    </div>
+
+
+  <!--------------------
+    clarivy------
+    -------------------- -->
+<!-- =========================================
+     CLARIVY — FINAL INTERNSHIP PROJECT
+========================================= -->
+
+<div class="clarivy-wrapper">
+
+    <div class="clarivy-label">
+        <span>// FINAL INTERNSHIP PROJECT</span>
+        <span class="status-dot">● PROJECT COMPLETE</span>
+    </div>
+
+    <div class="clarivy-card">
+
+        <!-- TITLE + SHORT DESCRIPTION -->
+
+        <div class="clarivy-heading">
+
+            <span class="clarivy-number">11</span>
+
+            <h2>CLARIVY</h2>
+
+            <h3>AI IMAGE DETECTION PROJECT</h3>
+
+            <p>
+                Clarivy analyzes an image and estimates the possibility
+                of AI generation, presenting the result as a clear
+                percentage with a final support card.
+            </p>
+
+        </div>
+
+
+        <!-- FULL WEBSITE SCREENSHOT -->
+
+        <div class="clarivy-media">
+
+            <img src="clarivy.png"
+                 alt="Clarivy AI Image Detection Project">
+
+        </div>
+
+
+        <!-- GITHUB BUTTON -->
+
+        <div class="clarivy-action">
+
+            <a href="https://github.com/siddiqa-shah/clarivy"
+               target="_blank"
+               class="github-button clarivy-button">
+
+                VIEW CLARIVY ON GITHUB
+                <span>→</span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Use this after your Projects section. It keeps the exact dark petrol portfolio theme. -->
+<link rel="stylesheet" href="exact-petrol-lower-sections.css">
+
+<section id="experience" class="experience-section" aria-labelledby="experience-heading">
+  <div class="experience-inner">
+    <div class="experience-title">
+      <span>// 04 — EXPERIENCE</span>
+      <h2 id="experience-heading">THE ARZENS<br><em>JOURNEY</em></h2>
+    </div>
+
+    <div class="experience-content">
+      <div class="experience-main">
+        <p class="experience-eyebrow">12-WEEK ONLINE INTERNSHIP · AI · AUTOMATION · SECURITY</p>
+        <h3>AI, Automation &amp; Security Engineering Intern</h3>
+        <p>
+          Completed a 12-week internship at THE ARZENS, building practical
+          foundations in Python automation, threat intelligence, SOAR workflows,
+          AI-assisted security analysis, cloud automation, and security dashboards.
+        </p>
+        <div class="experience-tags">
+          <span>PYTHON</span>
+          <span>SOAR</span>
+          <span>THREAT INTELLIGENCE</span>
+          <span>AI SECURITY</span>
+        </div>
+      </div>
+
+      <div class="experience-metrics" aria-label="Internship milestones">
+        <div><strong>12</strong><span>WEEKS</span></div>
+        <div><strong>10</strong><span>ASSIGNMENTS</span></div>
+        <div class="metric-highlight"><strong>01</strong><span>CAPSTONE</span></div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="contact" class="contact-section" aria-labelledby="contact-heading">
+  <div class="contact-inner">
+    <div class="contact-copy">
+      <span class="contact-kicker">// 05 — OPEN CHANNEL</span>
+      <h2 id="contact-heading">LET’S BUILD<br><em>SOMETHING USEFUL.</em></h2>
+      <p>
+        I’m open to junior security automation, SOC, and cybersecurity opportunities.
+        If you’re working on thoughtful systems, I’d love to connect.
+      </p>
+      <span class="availability"><i></i> AVAILABLE FOR OPPORTUNITIES</span>
+    </div>
+
+    <div class="contact-console">
+      <div class="console-bar">
+        <span>CONTACT_PROTOCOL</span>
+        <span>STATUS: READY</span>
+      </div>
+
+      <!-- Replace the placeholder links with your real contact details. -->
+      <a class="contact-row" href="mailto:samikasabir@gmail.com">
+        <span class="contact-icon">@</span>
+        <span><small>EMAIL</small><strong>samikasabir@gmail.com</strong></span>
+        <b aria-hidden="true">↗</b>
+      </a>
+      <a class="contact-row" href="https://www.linkedin.com/in/siddiqa-shah-251470421" target="_blank" rel="noreferrer">
+        <span class="contact-icon">in</span>
+        <span><small>PROFESSIONAL NETWORK</small><strong></strong></span>
+       
+        <b aria-hidden="true">↗</b>
+      </a>
+      <a class="contact-row" href="https://github.com/siddiqa-shah" target="blank" rel="noreferrer">
+        <span class="contact-icon">&lt;/&gt;</span>
+        <span><small>CODE &amp; PROJECTS</small><strong>https://github.com/siddiqa-shah</strong></span>
+        <b aria-hidden="true">↗</b>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+     
+      <span><strong>SIDDIQA SABIR</strong><small>AI · AUTOMATION · SECURITY</small></span>
+    </div>
+    <div class="footer-meta">
+      <span>© 2026 SIDDIQA SABIR</span>
+      <span>BUILT WITH CURIOSITY &amp; CAREFUL COMMITS.</span>
+    </div>
+    <div class="footer-actions">
+      <a href="#home">BACK TO TOP ↑</a>
+     
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
